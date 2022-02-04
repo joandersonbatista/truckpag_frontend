@@ -1,0 +1,35 @@
+.background-modal {
+  background-color: rgba(0, 0, 0, 0.95);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+}
+
+.modal-container {
+  width: 80vw;
+  max-width: 100rem;
+  max-height: 50rem;
+  overflow-y: scroll;
+  background-color: white;
+  margin: 4rem auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.modal-container h1 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.modal-container-img {
+  height: 20rem;
+  margin-bottom: 2rem;
+}
+
+.modal-container p {
+  font-size: 1.2rem;
+  margin: 0.4rem 0;
+}

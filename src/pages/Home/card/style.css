@@ -1,0 +1,28 @@
+.main-content-card-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  height: 20rem;
+  cursor: pointer;
+  margin: 1.5rem;
+  -webkit-box-shadow: 1px 0px 16px 0px rgba(255,255,255,0.46); 
+  box-shadow: 1px 0px 16px 0px rgba(255,255,255,0.46);
+  transition: transform 100ms ease-in-out;
+}
+
+.main-content-card-container:hover {
+  transform: scale(1.05);
+}
+
+.main-content-card-container h2 {
+  font-size: 1.5rem;
+  color: black;
+  margin-top: 1rem;
+}
+
+.img-container img {
+  height: 14rem;
+}

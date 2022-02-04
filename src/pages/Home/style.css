@@ -1,0 +1,38 @@
+.title {
+  font-size: 5rem;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.loading {
+  font-size: 2rem;
+  color: white;
+  margin: 0 auto;
+}
+
+.main-content {
+  width: 80%;
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: solid 0.1rem white;
+}
+
+.default-container {
+  justify-content: space-around;
+  padding: 5rem;
+  border: none;
+}
+
+.default-container input {
+  padding: 1.5rem;
+}
+
+.default-container button {
+  padding: 2rem;
+  cursor: pointer;
+}
