@@ -81,7 +81,7 @@ export default function Home() {
         <Input
           getValue={getValue}
           name="name"
-          placeholder="procura por nome"
+          placeholder="procurar por nome"
           title="Nome"
           type="text"
         />
